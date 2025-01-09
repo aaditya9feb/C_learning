@@ -3,11 +3,11 @@
 int input(void);
 
 int main(){
-    int num1 = input();
-    int num2 = input();
-    int num3 = input();
-    int avg = (num1+num2+num3)/3;
-    printf("The average of the numbers is %d.\n",avg);
+    float num1 = input();
+    float num2 = input();
+    float num3 = input();
+    float avg = (num1+num2+num3)/3;
+    printf("The average of the numbers is %f.\n",avg);
 }
 
 int input(void){
