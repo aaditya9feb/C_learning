@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int fact(int a){
+long int fact(int a){
     if (a ==1)
     {
         return 1;
@@ -10,8 +10,8 @@ int fact(int a){
     }
 }
 
-int main(int argc, char const *argv[])
+int main(int argc, int argv[])
 {
-    printf("%d",fact(6));
+    printf("%ld",fact(25));
     return 0;
 }
